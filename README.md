@@ -24,15 +24,15 @@ O `yt-dlp` é a ferramenta responsável por baixar e converter os vídeos do You
 
 Instale usando o Homebrew:
 
-\`\`\`bash
+```bash
 brew install yt-dlp
-\`\`\`
+```
 
 #### Linux
 
 Instale diretamente com o `curl` ou `wget`:
 
-\`\`\`bash
+```bash
 
 # Com curl
 
@@ -45,7 +45,7 @@ sudo wget -O /usr/local/bin/yt-dlp https://github.com/yt-dlp/yt-dlp/releases/lat
 # Dar permissão de execução
 
 sudo chmod a+rx /usr/local/bin/yt-dlp
-\`\`\`
+```
 
 #### Windows
 
@@ -59,9 +59,9 @@ sudo chmod a+rx /usr/local/bin/yt-dlp
 
 Após instalar o `yt-dlp`, verifique a instalação executando o comando:
 
-\`\`\`bash
+```bash
 yt-dlp --version
-\`\`\`
+```
 
 Se o comando retornar a versão do `yt-dlp`, a instalação foi concluída com sucesso.
 
@@ -69,24 +69,24 @@ Se o comando retornar a versão do `yt-dlp`, a instalação foi concluída com s
 
 Clone o repositório e navegue até o diretório do projeto:
 
-\`\`\`bash
+```bash
 git clone https://github.com/arnaldobatista/YouTube-Music-Downloader
 cd YouTube-Music-Downloader
-\`\`\`
+```
 
 Instale as dependências do Node.js:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 3. Executar o Servidor
 
 Para iniciar o backend, execute:
 
-\`\`\`bash
+```bash
 node server.js
-\`\`\`
+```
 
 O servidor deve estar rodando em `http://localhost:5001`.
 
